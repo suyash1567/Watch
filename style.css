@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(160deg, #b31920, #b31920 70%, #0136A4 70%, #0136A4);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+.tops{
+    display: flex;
+}
+
+.topnav{
+    margin-top: 45px;
+}
+.topnav ul {
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+    color: white;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+.topnav ul li{
+    margin-left: 30px;
+    text-align: center;
+   
+}
+
+.left img{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.left{
+    
+    flex:1;
+}
+.right{
+    flex:1;
+    
+}
+.middle{
+    
+    flex:2;
+    text-align: center;
+}
+
+.right a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 800;
+    padding: 15px 45px ;
+    background-color: #0136A4;
+    border-radius: 40px;
+    position: absolute;
+    right: 30px;
+    margin-top: 40px;
+}
+.right a:hover{
+
+    background-color: rgb(67, 67, 180);
+
+}
+.col-right img{
+    float: right;
+    height: 650px;
+    width: 400px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.cols{
+   
+    display: flex;
+}
+.col-right{
+    flex:1;
+    float: right;
+}
+.col-left{
+    margin-left: 10%;
+    margin-top: 7%;
+    flex:1;
+}
+.col-left .head{
+    font-family: 'poppins';
+    letter-spacing: 3px;
+    color: white;
+    line-height: 10px;
+}
+.col-left h2{
+    font-family: 'poppins';
+    letter-spacing: 4px;
+    
+}
+.col-left p{
+    font-family: 'poppins';
+}
+.topnav ul li:hover{
+   animation-delay: 500ms;
+    text-shadow: 0 0 1px #ffffff,
+    0 0 2px #ffffff,
+    0 0 3px #ffffff;
+}
+.col-left span{
+    color:#0136A4;
+    font-size: 90px;
+}
+ .bot{
+     color: white;
+    font-family: 'poppins';
+    line-height: 40px;
+    font-size: 30px;
+    text-shadow:  0 0 1px #0e6cd8,
+    0 0 2px #0e6cd8,
+    0 0 3px #0e6cd8,
+    0 0 4px #0e6cd8,
+    0 0 5px #0e6cd8,
+    0 0 6px #0e6cd8;
+}
+
+.col-left h2{
+    color: white;
+    margin-top: 20px;
+}
+
+.col-left p {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
